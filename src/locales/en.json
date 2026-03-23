@@ -1,0 +1,48 @@
+{
+  "nav": {
+    "about": "About me",
+    "offering": "The Offering",
+    "pricing": "Pricing & Ethics",
+    "contact": "Contact"
+  },
+  "hero": {
+    "headline": "Movement Shift",
+    "subHeadline": "When we no longer feel solid ground, we start to dance.",
+    "description": "For people in phases of upheaval seeking the courage to dance their own truth. Coaching & process facilitation at eye level.",
+    "cta": "Book a Vibe-Check"
+  },
+  "about": {
+    "title": "The Guide",
+    "subtitle": "Life experience over certificates",
+    "text1": "I bring an academic and systemic background, but most importantly: I know transition. Loneliness, change, and resilience are not theory to me, but lived experience.",
+    "text2": "I am an expert in my craft, but you are always the expert of your life."
+  },
+  "offering": {
+    "title": "The Shift",
+    "subtitle": "A safe space",
+    "item1_title": "1-on-1 Process",
+    "item1_text": "Individual, systemic, and radically resource-oriented.",
+    "item2_title": "Body-Mind Integration",
+    "item2_text": "The body keeps the score. Dance, music, and yoga are tools we can use - but only if it feels right. No pressure to perform.",
+    "item3_title": "The Unpolished Space",
+    "item3_text": "A room where anger, grief, and confusion are welcome without labels."
+  },
+  "pricing": {
+    "title": "Pricing & Ethics",
+    "subtitle": "High Intensity, Low Volume",
+    "text1": "I work intensively with a few clients to ensure maximum presence.",
+    "social_title": "Social Tariff",
+    "social_text": "Commitment shouldn't fail because of finances. For people with limited financial means, reduced spots are available upon request."
+  },
+  "contact": {
+    "title": "Let's Connect",
+    "subtitle": "Book your free intro call.",
+    "form_name": "Your Name",
+    "form_email": "Your Email",
+    "form_message": "Your Message",
+    "form_submit": "Send Message",
+    "location_online": "Online via Zoom",
+    "location_berlin": "Live in Berlin",
+    "location_walk": "Unconventional (Outdoor/Walk & Talk)"
+  }
+}

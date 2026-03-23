@@ -1,0 +1,48 @@
+{
+  "nav": {
+    "about": "Über mich",
+    "offering": "Das Angebot",
+    "pricing": "Preise & Ethik",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "headline": "Movement Shift",
+    "subHeadline": "Wenn wir keinen festen Boden mehr spüren, fangen wir eben an zu tanzen.",
+    "description": "Für Menschen in Umbruchphasen, die den Mut suchen, ihre eigene Wahrheit zu tanzen. Coaching & Prozessbegleitung auf Augenhöhe.",
+    "cta": "Vibe-Check buchen"
+  },
+  "about": {
+    "title": "Der Guide",
+    "subtitle": "Lebenserfahrung vor Zertifikaten",
+    "text1": "Ich bringe einen akademischen und systemischen Hintergrund mit, aber am wichtigsten ist: Ich kenne den Umbruch. Einsamkeit, Veränderung und Resilienz sind keine Theorie für mich, sondern gelebte Erfahrung.",
+    "text2": "Ich bin Experte für mein Handwerk, aber du bleibst immer der Experte für dein Leben."
+  },
+  "offering": {
+    "title": "The Shift",
+    "subtitle": "Ein geschützter Raum",
+    "item1_title": "1-on-1 Prozess",
+    "item1_text": "Individuell, systemisch und radikal ressourcenorientiert.",
+    "item2_title": "Body-Mind Integration",
+    "item2_text": "Der Körper erinnert sich. Tanz, Musik und Yoga sind Werkzeuge, die wir nutzen können – aber nur, wenn es sich richtig anfühlt. Kein Leistungsdruck.",
+    "item3_title": "Der unpolierte Raum",
+    "item3_text": "Ein Ort, an dem Wut, Trauer und Verwirrung ohne Labels willkommen sind."
+  },
+  "pricing": {
+    "title": "Preise & Ethik",
+    "subtitle": "High Intensity, Low Volume",
+    "text1": "Ich arbeite intensiv mit wenigen Klienten, um maximale Präsenz zu gewährleisten.",
+    "social_title": "Sozialtarif",
+    "social_text": "Commitment darf nicht am Geldbeutel scheitern. Für Menschen mit geringen finanziellen Mitteln gibt es nach Absprache reduzierte Plätze."
+  },
+  "contact": {
+    "title": "Let's Connect",
+    "subtitle": "Buche deinen kostenlosen Info-Call.",
+    "form_name": "Dein Name",
+    "form_email": "Deine E-Mail",
+    "form_message": "Deine Nachricht",
+    "form_submit": "Nachricht Senden",
+    "location_online": "Online via Zoom",
+    "location_berlin": "Live in Berlin",
+    "location_walk": "Unkonventionell (Outdoor/Walk & Talk)"
+  }
+}
