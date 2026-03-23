@@ -22,9 +22,9 @@ const Impressum = () => {
         <section>
           <h2 className="text-2xl font-semibold text-petrol mb-4">Angaben gemäß § 5 TMG</h2>
           <p className="leading-relaxed">
-            [Tanja Mayr]<br />
-            [Schudomastraße 49]<br />
-            [12055 Berlin]<br />
+            Tanja Mayr<br />
+            Schudomastraße 49<br />
+            12055 Berlin<br />
           </p>
         </section>
 
@@ -32,15 +32,7 @@ const Impressum = () => {
           <h2 className="text-2xl font-semibold text-petrol mb-4">Kontakt</h2>
           <p className="leading-relaxed">
             Telefon: 01578/3591381<br />
-            E-Mail: [tanjamayr1990@gmail.com]<br />
-          </p>
-        </section>
-
-        <section>
-          <h2 className="text-2xl font-semibold text-petrol mb-4">Umsatzsteuer-ID</h2>
-          <p className="leading-relaxed">
-            Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz:<br />
-            [DE XXX XXX XXX] (Falls zutreffend)
+            E-Mail: tanjamayr1990@gmail.com<br />
           </p>
         </section>
 
