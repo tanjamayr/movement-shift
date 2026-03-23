@@ -31,7 +31,7 @@ const Impressum = () => {
         <section>
           <h2 className="text-2xl font-semibold text-petrol mb-4">Kontakt</h2>
           <p className="leading-relaxed">
-            Telefon: 01578/3591381<br />
+            Telefon: 01578/359 1381<br />
             E-Mail: tanjamayr1990@gmail.com<br />
           </p>
         </section>
