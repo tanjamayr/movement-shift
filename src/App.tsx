@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './pages/Home';
 import Impressum from './pages/Impressum';
+import AnimatedBackground from './components/AnimatedBackground';
 
 function App() {
   const [route, setRoute] = useState(window.location.hash);
@@ -14,7 +15,8 @@ function App() {
   }, []);
 
   return (
-    <div className="font-sans text-gray-100 bg-dark selection:bg-petrol selection:text-white min-h-screen flex flex-col">
+    <div className="font-sans text-gray-100 bg-transparent selection:bg-petrol selection:text-white min-h-screen flex flex-col relative overflow-hidden">
+      <AnimatedBackground />
       <Navbar />
       <div className="flex-grow">
         {route === '#impressum' ? <Impressum /> : <Home />}
