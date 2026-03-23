@@ -4,36 +4,35 @@ import { motion } from 'framer-motion';
 
 const Impressum = () => {
   const { t } = useTranslation();
-  
+
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
 
   return (
-    <motion.div 
-      initial={{ opacity: 0 }} 
-      animate={{ opacity: 1 }} 
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
       className="pt-32 pb-24 px-6 md:px-12 max-w-4xl mx-auto text-gray-300"
     >
       <h1 className="text-4xl md:text-5xl font-bold text-white mb-12 tracking-tight">Impressum</h1>
-      
+
       <div className="space-y-10 text-lg">
         <section>
           <h2 className="text-2xl font-semibold text-petrol mb-4">Angaben gemäß § 5 TMG</h2>
           <p className="leading-relaxed">
-            Movement Shift Coaching<br />
-            [Vorname Name]<br />
-            [Straße Hausnummer]<br />
-            [PLZ Ort]<br />
+            [Tanja Mayr]<br />
+            [Schudomastraße 49]<br />
+            [12055 Berlin]<br />
           </p>
         </section>
 
         <section>
           <h2 className="text-2xl font-semibold text-petrol mb-4">Kontakt</h2>
           <p className="leading-relaxed">
-            Telefon: [Telefonnummer]<br />
-            E-Mail: [E-Mail-Adresse]<br />
+            Telefon: 01578/3591381<br />
+            E-Mail: [tanjamayr1990@gmail.com]<br />
           </p>
         </section>
 
