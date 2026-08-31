@@ -1,10 +1,7 @@
 import React, { useEffect } from 'react';
-import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 
 const Impressum = () => {
-  const { t } = useTranslation();
-
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);

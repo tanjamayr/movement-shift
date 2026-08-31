@@ -3,9 +3,12 @@
     "about": "About me",
     "offering": "The Offering",
     "pricing": "Pricing & Ethics",
-    "contact": "Contact"
+    "contact": "Contact",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
   },
   "hero": {
+    "eyebrow": "Embodied coaching for women in times of change",
     "headline": "Movement Shift",
     "subHeadline": "When we no longer feel solid ground, we start to dance.",
     "description": "For people in phases of upheaval seeking the courage to dance their own truth. Coaching & process facilitation at eye level.",
@@ -28,9 +31,13 @@
     "item3_text": "A room where anger, grief, and confusion are welcome without labels."
   },
   "pricing": {
-    "title": "Pricing & Ethics",
-    "subtitle": "High Intensity, Low Volume",
-    "text1": "I work intensively with a few clients to ensure maximum presence."
+    "title": "Working Together & Values",
+    "subtitle": "Intensive, individual, on equal footing",
+    "text1": "I work intensively with a small number of clients so your process has the space, presence and attention it deserves.",
+    "point1": "Individual sessions (60–90 minutes)",
+    "point2": "Supportive prompts between sessions – when they genuinely serve you",
+    "point3": "A holistic view of your resources and everyday life",
+    "note": "We will discuss the right format and investment transparently in your free introductory call."
   },
   "contact": {
     "title": "Let's Connect",
@@ -38,9 +45,18 @@
     "form_name": "Your Name",
     "form_email": "Your Email",
     "form_message": "Your Message",
-    "form_submit": "Send Message",
+    "form_submit": "Prepare message",
+    "namePlaceholder": "Your name",
+    "emailPlaceholder": "you@email.com",
+    "messagePlaceholder": "How can I support you?",
+    "mailClientNotice": "Your email app will open. If nothing happens, please email me directly at tanjamayr1990@gmail.com.",
     "location_online": "Online via Zoom",
     "location_berlin": "Live in Berlin",
     "location_walk": "Unconventional (Outdoor/Walk & Talk)"
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "imprint": "Legal notice",
+    "privacy": "Privacy"
   }
 }

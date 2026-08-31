@@ -1,10 +1,24 @@
-import React from 'react';
+import React, { FormEvent, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import { MapPin, Video, Map } from 'lucide-react';
 
 const Contact = () => {
   const { t } = useTranslation();
+  const [submitted, setSubmitted] = useState(false);
+
+  const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
+    const form = new FormData(event.currentTarget);
+    const name = form.get('name');
+    const email = form.get('email');
+    const message = form.get('message');
+    const subject = encodeURIComponent(`Anfrage von ${name}`);
+    const body = encodeURIComponent(`Name: ${name}\nE-Mail: ${email}\n\nNachricht:\n${message}`);
+
+    window.location.href = `mailto:tanjamayr1990@gmail.com?subject=${subject}&body=${body}`;
+    setSubmitted(true);
+  };
 
   return (
     <section id="contact" className="py-24 bg-dark relative">
@@ -52,7 +66,7 @@ const Contact = () => {
           transition={{ duration: 0.8 }}
           className="glass-panel p-8 md:p-10 rounded-3xl"
         >
-          <form className="space-y-6" onSubmit={(e) => e.preventDefault()}>
+          <form className="space-y-6" onSubmit={handleSubmit}>
             <div>
               <label htmlFor="name" className="block text-sm font-medium text-gray-400 mb-2">
                 {t('contact.form_name')}
@@ -60,8 +74,11 @@ const Contact = () => {
               <input
                 type="text"
                 id="name"
+                name="name"
+                autoComplete="name"
+                required
                 className="w-full bg-black/20 border border-white/10 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-petrol transition-colors"
-                placeholder="Jane Doe"
+                placeholder={t('contact.namePlaceholder')}
               />
             </div>
             <div>
@@ -71,8 +88,11 @@ const Contact = () => {
               <input
                 type="email"
                 id="email"
+                name="email"
+                autoComplete="email"
+                required
                 className="w-full bg-black/20 border border-white/10 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-petrol transition-colors"
-                placeholder="jane@example.com"
+                placeholder={t('contact.emailPlaceholder')}
               />
             </div>
             <div>
@@ -81,9 +101,11 @@ const Contact = () => {
               </label>
               <textarea
                 id="message"
+                name="message"
                 rows={4}
+                required
                 className="w-full bg-black/20 border border-white/10 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-petrol transition-colors resize-none"
-                placeholder="Hi..."
+                placeholder={t('contact.messagePlaceholder')}
               />
             </div>
             <button
@@ -92,6 +114,11 @@ const Contact = () => {
             >
               {t('contact.form_submit')}
             </button>
+            {submitted && (
+              <p className="text-sm text-lightGreen" role="status">
+                {t('contact.mailClientNotice')}
+              </p>
+            )}
           </form>
         </motion.div>
 

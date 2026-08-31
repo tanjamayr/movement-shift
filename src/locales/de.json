@@ -3,9 +3,12 @@
     "about": "Über mich",
     "offering": "Das Angebot",
     "pricing": "Preise & Ethik",
-    "contact": "Kontakt"
+    "contact": "Kontakt",
+    "openMenu": "Menü öffnen",
+    "closeMenu": "Menü schließen"
   },
   "hero": {
+    "eyebrow": "Embodied Coaching für Frauen in Umbruchphasen",
     "headline": "Movement Shift",
     "subHeadline": "Wenn wir keinen festen Boden mehr spüren, fangen wir eben an zu tanzen.",
     "description": "Für Menschen in Umbruchphasen, die den Mut suchen, ihre eigene Wahrheit zu tanzen. Coaching & Prozessbegleitung auf Augenhöhe.",
@@ -28,9 +31,13 @@
     "item3_text": "Ein Ort, an dem Wut, Trauer und Verwirrung ohne Labels willkommen sind."
   },
   "pricing": {
-    "title": "Preise & Ethik",
-    "subtitle": "High Intensity, Low Volume",
-    "text1": "Ich arbeite intensiv mit wenigen Klienten, um maximale Präsenz zu gewährleisten."
+    "title": "Zusammenarbeit & Haltung",
+    "subtitle": "Intensiv, individuell, auf Augenhöhe",
+    "text1": "Ich arbeite intensiv mit wenigen Klientinnen, damit dein Prozess genug Raum, Präsenz und Aufmerksamkeit bekommt.",
+    "point1": "Individuelle Sessions (60–90 Minuten)",
+    "point2": "Impulse zwischen den Terminen – wenn sie dich wirklich unterstützen",
+    "point3": "Ganzheitlicher Blick auf deine Ressourcen und deinen Alltag",
+    "note": "Den passenden Rahmen und die Investition klären wir transparent im kostenlosen Kennenlerngespräch."
   },
   "contact": {
     "title": "Let's Connect",
@@ -38,9 +45,18 @@
     "form_name": "Dein Name",
     "form_email": "Deine E-Mail",
     "form_message": "Deine Nachricht",
-    "form_submit": "Nachricht Senden",
+    "form_submit": "Nachricht vorbereiten",
+    "namePlaceholder": "Dein Name",
+    "emailPlaceholder": "deine@email.de",
+    "messagePlaceholder": "Wobei darf ich dich begleiten?",
+    "mailClientNotice": "Dein E-Mail-Programm wird geöffnet. Falls nichts passiert, schreibe mir gern direkt an tanjamayr1990@gmail.com.",
     "location_online": "Online via Zoom",
     "location_berlin": "Live in Berlin",
     "location_walk": "Unkonventionell (Outdoor/Walk & Talk)"
+  },
+  "footer": {
+    "rights": "Alle Rechte vorbehalten.",
+    "imprint": "Impressum",
+    "privacy": "Datenschutz"
   }
 }

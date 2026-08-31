@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './pages/Home';
 import Impressum from './pages/Impressum';
+import Datenschutz from './pages/Datenschutz';
 import AnimatedBackground from './components/AnimatedBackground';
 
 function App() {
@@ -19,7 +20,7 @@ function App() {
       <AnimatedBackground />
       <Navbar />
       <div className="flex-grow">
-        {route === '#impressum' ? <Impressum /> : <Home />}
+        {route === '#impressum' ? <Impressum /> : route === '#datenschutz' ? <Datenschutz /> : <Home />}
       </div>
       <Footer />
     </div>

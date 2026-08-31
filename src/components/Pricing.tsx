@@ -37,19 +37,19 @@ const Pricing = () => {
             <ul className="space-y-4 mb-8 text-gray-300">
               <li className="flex items-center gap-3">
                 <span className="w-1.5 h-1.5 bg-lightGreen rounded-full block"></span>
-                Individual Sessions (60-90 Min)
+                {t('pricing.point1')}
               </li>
               <li className="flex items-center gap-3">
                 <span className="w-1.5 h-1.5 bg-lightGreen rounded-full block"></span>
-                Between-Session Support
+                {t('pricing.point2')}
               </li>
               <li className="flex items-center gap-3">
                 <span className="w-1.5 h-1.5 bg-lightGreen rounded-full block"></span>
-                Holistic Resource Mapping
+                {t('pricing.point3')}
               </li>
             </ul>
             <p className="text-sm text-gray-500 italic">
-              * Pricing discussed during the intro call based on individual agreements.
+              {t('pricing.note')}
             </p>
           </motion.div>
         </div>

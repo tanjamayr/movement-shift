@@ -22,7 +22,7 @@ const Hero = () => {
           transition={{ duration: 0.8, ease: 'easeOut' }}
         >
           <span className="text-lightGreen/80 uppercase tracking-widest text-sm font-semibold mb-6 block">
-            Coaching & Prozessbegleitung
+            {t('hero.eyebrow')}
           </span>
           <h1 className="text-6xl md:text-8xl font-bold mb-6 tracking-tighter text-white">
             {t('hero.headline')}
