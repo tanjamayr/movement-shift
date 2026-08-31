@@ -1,7 +1,8 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
-import movementImg from '../assets/movement.png';
+import movementPortrait from '../assets/movement-portrait.webp';
+import movementInMotion from '../assets/movement-in-motion.webp';
 
 const About = () => {
   const { t } = useTranslation();
@@ -16,13 +17,18 @@ const About = () => {
             viewport={{ once: true, margin: "-100px" }}
             transition={{ duration: 0.8 }}
           >
-            <div className="relative">
+            <div className="relative pb-10 pr-8 md:pb-14 md:pr-12">
               {/* Image Frame */}
-              <div className="absolute -inset-4 border border-white/10 rounded-lg transform -rotate-3 transition-transform hover:rotate-0 duration-500" />
+              <div className="absolute inset-0 border border-white/10 rounded-lg transform -rotate-3 transition-transform hover:rotate-0 duration-500" />
               <img
-                src={movementImg}
-                alt="Abstract Movement"
-                className="relative rounded-lg w-full h-auto object-cover grayscale hover:grayscale-0 transition-all duration-700 opacity-80"
+                src={movementPortrait}
+                alt="Tanja in Bewegung"
+                className="relative rounded-lg w-full aspect-[3/4] object-cover object-top shadow-2xl transition-all duration-700"
+              />
+              <img
+                src={movementInMotion}
+                alt="Bewegung als Ausdruck von Lebendigkeit"
+                className="absolute bottom-0 right-0 w-5/12 aspect-[3/4] object-cover object-top rounded-lg border-4 border-darker shadow-2xl transition-transform duration-500 hover:-translate-y-2"
               />
             </div>
           </motion.div>
